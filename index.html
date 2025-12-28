@@ -2,51 +2,126 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Ruta Rock</title>
+  <title>Ruta Rock Radio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ruta Rock – Rock 24/7 desde Mar del Plata, Argentina">
+
+  <meta name="description" content="Ruta Rock Radio – Rock nacional e internacional las 24 horas desde Mar del Plata">
+  <meta name="keywords" content="ruta rock, radio rock, mar del plata, rock argentino">
+  <meta name="author" content="Ruta Rock Radio">
+
   <style>
     body {
-      background: #000;
-      color: #fff;
+      margin: 0;
       font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(#000, #111);
+      color: #fff;
+    }
+
+    header {
       text-align: center;
       padding: 40px 15px;
+      border-bottom: 1px solid #222;
     }
-    h1 {
+
+    header h1 {
       font-size: 42px;
-      margin-bottom: 10px;
+      letter-spacing: 3px;
+      margin: 0;
     }
-    p {
-      font-size: 18px;
-      margin-bottom: 20px;
+
+    header p {
+      color: #bbb;
+      margin-top: 10px;
+      font-size: 15px;
     }
+
+    .player {
+      text-align: center;
+      margin: 30px;
+    }
+
     audio {
       width: 100%;
-      max-width: 400px;
-      margin: 20px auto;
+      max-width: 420px;
     }
-    .footer {
-      margin-top: 40px;
-      font-size: 14px;
-      color: #aaa;
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 30px 20px;
+      border-bottom: 1px solid #222;
+    }
+
+    section h2 {
+      color: #e60000;
+      margin-bottom: 15px;
+      letter-spacing: 1px;
+    }
+
+    .programacion ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .programacion li {
+      padding: 6px 0;
+      color: #ddd;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      font-size: 13px;
+      color: #777;
     }
   </style>
 </head>
+
 <body>
 
-  <h1>Ruta Rock</h1>
-  <p>Rock 24/7 desde Mar del Plata, Argentina</p>
+<header>
+  <h1>RUTA ROCK</h1>
+  <p>Rock nacional e internacional • 24 horas</p>
+</header>
 
-  <audio controls autoplay>
+<div class="player">
+  <audio controls>
     <source src="https://s2.servicioderadio.com/8492/stream" type="audio/mpeg">
-    Tu navegador no soporta audio HTML5.
   </audio>
+  <p>📻 Transmitiendo desde Mar del Plata, Argentina</p>
+</div>
 
-  <div class="footer">
-    Contacto:<br>
-    📧 juaniza3000@gmail.com
-  </div>
+<section>
+  <h2>Sobre Ruta Rock</h2>
+  <p>
+    Ruta Rock es una radio online independiente dedicada al rock nacional e internacional.
+    Transmitimos las 24 horas con una selección de clásicos, nuevas bandas y sonidos alternativos,
+    acompañando a los oyentes en cualquier lugar del mundo.
+  </p>
+</section>
+
+<section class="programacion">
+  <h2>Programación</h2>
+  <ul>
+    <li>🎸 Rock clásico nacional</li>
+    <li>🤘 Rock internacional</li>
+    <li>🔥 Alternativo & grunge</li>
+    <li>🎶 Especiales y selecciones temáticas</li>
+    <li>📻 Música sin cortes las 24 horas</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Contacto</h2>
+  <p>
+    📩 Email: <a href="mailto:juaniza3000@gmail.com" style="color:#fff;">juaniza3000@gmail.com</a><br>
+    📍 Mar del Plata – Buenos Aires – Argentina
+  </p>
+</section>
+
+<footer>
+  © 2025 Ruta Rock Radio · Todos los derechos reservados
+</footer>
 
 </body>
 </html>
